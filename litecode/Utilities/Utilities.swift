@@ -15,3 +15,28 @@ func humanReadableByteCount(bytes: Int) -> String {
     let number = Double(bytes) / pow(1000, Double(exp))
     return String(format: "%.1f %@", number, unit)
 }
+
+struct CodableWrapper<Value: Codable> {
+    var value: Value
+}
+
+extension CodableWrapper: RawRepresentable {
+    typealias RawValue = String
+    
+    var rawValue: RawValue {
+        guard
+            let data = try? JSONEncoder().encode(value),
+            let string = String(data: data, encoding: .utf8)
+        else {
+            return ""
+        }
+        
+        return string
+    }
+}
+
+extension CodableWrapper: Equatable {
+    static func == (lhs: CodableWrapper, rhs: CodableWrapper) -> Bool {
+        return lhs.rawValue == rhs.rawValue
+    }
+}
