@@ -31,6 +31,7 @@
 		B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B12991792BDA97260011E529 /* KBWebViewBase.m */; };
 		B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */; };
 		B12991802BDA97D60011E529 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129917F2BDA97D60011E529 /* Utilities.swift */; };
+		B12991822BDA98AC0011E529 /* biometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991812BDA98AC0011E529 /* biometricType.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +83,7 @@
 		B129917C2BDA97940011E529 /* UIFont+YYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+YYAdd.h"; sourceTree = "<group>"; };
 		B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YYAdd.m"; sourceTree = "<group>"; };
 		B129917F2BDA97D60011E529 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B12991812BDA98AC0011E529 /* biometricType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometricType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -230,6 +232,7 @@
 				B129917C2BDA97940011E529 /* UIFont+YYAdd.h */,
 				B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */,
 				B129917F2BDA97D60011E529 /* Utilities.swift */,
+				B12991812BDA98AC0011E529 /* biometricType.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -378,6 +381,7 @@
 				B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */,
 				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
+				B12991822BDA98AC0011E529 /* biometricType.swift in Sources */,
 				B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */,
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
 				B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */,
