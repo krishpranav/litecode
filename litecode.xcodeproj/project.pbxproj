@@ -22,6 +22,7 @@
 		B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991622BDA250C0011E529 /* RemoteHostError.swift */; };
 		B12991652BDA25310011E529 /* SourceControlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991642BDA25310011E529 /* SourceControlError.swift */; };
 		B12991682BDA28830011E529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991672BDA28830011E529 /* Theme.swift */; };
+		B129916A2BDA28F20011E529 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991692BDA28F20011E529 /* Remote.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B12991622BDA250C0011E529 /* RemoteHostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteHostError.swift; sourceTree = "<group>"; };
 		B12991642BDA25310011E529 /* SourceControlError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlError.swift; sourceTree = "<group>"; };
 		B12991672BDA28830011E529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		B12991692BDA28F20011E529 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				B12991672BDA28830011E529 /* Theme.swift */,
+				B12991692BDA28F20011E529 /* Remote.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -310,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B129916A2BDA28F20011E529 /* Remote.swift in Sources */,
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
 				B129915E2BDA21F30011E529 /* Secrets.swift in Sources */,
 				B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */,
