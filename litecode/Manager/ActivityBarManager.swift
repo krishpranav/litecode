@@ -1,0 +1,28 @@
+//
+//  ActivityBarManager.swift
+//  litecode
+//
+//  Created by Krisna Pranav on 25/04/24.
+//
+
+import Foundation
+import SwiftUI
+
+enum ActivityBarBubble {
+    case text(String)
+    case systemImage(String)
+}
+
+struct ActivityBarItem: Identifiable {
+    let id = UUID()
+    let itemID: String
+    var iconSystemName: String
+    var title: LocalizedStringKey
+    var shortcutKey: KeyEquivalent?
+    var modifiers: EventModifiers?
+    var view: AnyView
+    var contextMenuItems: (() -> [ContextMenuItem])?
+    var positionPrecedence: Int = 0
+    var bubble: () -> ActivityBarBubble?
+    var isVisible: (() -> Bool)
+}

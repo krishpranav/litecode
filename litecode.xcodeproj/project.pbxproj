@@ -25,6 +25,7 @@
 		B129916A2BDA28F20011E529 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991692BDA28F20011E529 /* Remote.swift */; };
 		B129916C2BDA93000011E529 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129916B2BDA93000011E529 /* Notification.swift */; };
 		B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129916D2BDA93F60011E529 /* LiteCodeExtension.swift */; };
+		B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991702BDA94550011E529 /* ActivityBarManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		B12991692BDA28F20011E529 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
 		B129916B2BDA93000011E529 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		B129916D2BDA93F60011E529 /* LiteCodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteCodeExtension.swift; sourceTree = "<group>"; };
+		B12991702BDA94550011E529 /* ActivityBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBarManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		B12991292BDA1FA40011E529 /* litecode */ = {
 			isa = PBXGroup;
 			children = (
+				B129916F2BDA94400011E529 /* Manager */,
 				B12991662BDA287E0011E529 /* Types */,
 				B129915F2BDA22F70011E529 /* Errors */,
 				B12991562BDA206D0011E529 /* Constants */,
@@ -184,6 +187,14 @@
 				B129916D2BDA93F60011E529 /* LiteCodeExtension.swift */,
 			);
 			path = Types;
+			sourceTree = "<group>";
+		};
+		B129916F2BDA94400011E529 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				B12991702BDA94550011E529 /* ActivityBarManager.swift */,
+			);
+			path = Manager;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -319,6 +330,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */,
 				B129916A2BDA28F20011E529 /* Remote.swift in Sources */,
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
 				B129915E2BDA21F30011E529 /* Secrets.swift in Sources */,
