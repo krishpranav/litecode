@@ -33,6 +33,16 @@ extension CodableWrapper: RawRepresentable {
         
         return string
     }
+    
+    init?(rawValue: RawValue) {
+        guard
+            let data = rawValue.data(using: .utf8),
+            let decoded = try? JSONDecoder().decode(Value.self, from: data)
+        else {
+            return nil
+        }
+        value = decoded
+    }
 }
 
 extension CodableWrapper: Equatable {
