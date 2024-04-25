@@ -21,6 +21,7 @@
 		B12991612BDA22FF0011E529 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991602BDA22FF0011E529 /* AppError.swift */; };
 		B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991622BDA250C0011E529 /* RemoteHostError.swift */; };
 		B12991652BDA25310011E529 /* SourceControlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991642BDA25310011E529 /* SourceControlError.swift */; };
+		B12991682BDA28830011E529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991672BDA28830011E529 /* Theme.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		B12991602BDA22FF0011E529 /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		B12991622BDA250C0011E529 /* RemoteHostError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteHostError.swift; sourceTree = "<group>"; };
 		B12991642BDA25310011E529 /* SourceControlError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlError.swift; sourceTree = "<group>"; };
+		B12991672BDA28830011E529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		B12991292BDA1FA40011E529 /* litecode */ = {
 			isa = PBXGroup;
 			children = (
+				B12991662BDA287E0011E529 /* Types */,
 				B129915F2BDA22F70011E529 /* Errors */,
 				B12991562BDA206D0011E529 /* Constants */,
 				B129912A2BDA1FA40011E529 /* litecodeApp.swift */,
@@ -164,6 +167,14 @@
 				B12991642BDA25310011E529 /* SourceControlError.swift */,
 			);
 			path = Errors;
+			sourceTree = "<group>";
+		};
+		B12991662BDA287E0011E529 /* Types */ = {
+			isa = PBXGroup;
+			children = (
+				B12991672BDA28830011E529 /* Theme.swift */,
+			);
+			path = Types;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -306,6 +317,7 @@
 				B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */,
 				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
+				B12991682BDA28830011E529 /* Theme.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 				B12991612BDA22FF0011E529 /* AppError.swift in Sources */,
 			);
