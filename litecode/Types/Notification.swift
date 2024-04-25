@@ -13,7 +13,7 @@ struct NotificationEntry: Identifiable {
     let data: NotificationData
     var isPresented: Bool = true
     var isRemoved: Bool = false
-}
+} // struct NotificationEntry
 
 struct NotificationData {
     let title: String
@@ -21,6 +21,11 @@ struct NotificationData {
     var progress: Progress? = nil
     let level: Level
     let style: Style
+    var primaryAction: (() -> Void)? = nil
+    var secondaryAction: (() -> Void)? = nil
+    var primaryTitle: String = ""
+    var secondaryTitle: String = ""
+    var task: (() async -> Void)? = nil
     
     enum Style {
         case basic
@@ -35,4 +40,4 @@ struct NotificationData {
         case error
         case success
     }
-}
+} // struct NotificationData
