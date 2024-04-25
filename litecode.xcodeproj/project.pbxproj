@@ -14,6 +14,7 @@
 		B129913D2BDA1FA50011E529 /* litecodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129913C2BDA1FA50011E529 /* litecodeTests.swift */; };
 		B12991472BDA1FA50011E529 /* litecodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991462BDA1FA50011E529 /* litecodeUITests.swift */; };
 		B12991492BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991482BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift */; };
+		B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991572BDA208D0011E529 /* DefaultUIState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B12991422BDA1FA50011E529 /* litecodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = litecodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B12991462BDA1FA50011E529 /* litecodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeUITests.swift; sourceTree = "<group>"; };
 		B12991482BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B12991572BDA208D0011E529 /* DefaultUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		B12991292BDA1FA40011E529 /* litecode */ = {
 			isa = PBXGroup;
 			children = (
+				B12991562BDA206D0011E529 /* Constants */,
 				B129912A2BDA1FA40011E529 /* litecodeApp.swift */,
 				B129912C2BDA1FA40011E529 /* ContentView.swift */,
 				B129912E2BDA1FA50011E529 /* Assets.xcassets */,
@@ -127,6 +130,14 @@
 				B12991482BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift */,
 			);
 			path = litecodeUITests;
+			sourceTree = "<group>";
+		};
+		B12991562BDA206D0011E529 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B12991572BDA208D0011E529 /* DefaultUIState.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,6 +228,9 @@
 				Base,
 			);
 			mainGroup = B129911E2BDA1FA40011E529;
+			packageReferences = (
+				B12991552BDA201F0011E529 /* XCRemoteSwiftPackageReference "SwiftGit2" */,
+			);
 			productRefGroup = B12991282BDA1FA40011E529 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */,
 				B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 			);
@@ -617,6 +632,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B12991552BDA201F0011E529 /* XCRemoteSwiftPackageReference "SwiftGit2" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftGit2/SwiftGit2";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.6.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = B129911F2BDA1FA40011E529 /* Project object */;
 }
