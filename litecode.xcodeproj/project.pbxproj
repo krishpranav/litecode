@@ -29,6 +29,7 @@
 		B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */; };
 		B12991762BDA96470011E529 /* ActivityBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991752BDA96470011E529 /* ActivityBarItemView.swift */; };
 		B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B12991792BDA97260011E529 /* KBWebViewBase.m */; };
+		B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,8 @@
 		B12991782BDA96F80011E529 /* KBWebViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWebViewBase.h; sourceTree = "<group>"; };
 		B12991792BDA97260011E529 /* KBWebViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWebViewBase.m; sourceTree = "<group>"; };
 		B129917B2BDA973E0011E529 /* Code-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Code-Bridging-Header.h"; sourceTree = "<group>"; };
+		B129917C2BDA97940011E529 /* UIFont+YYAdd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+YYAdd.h"; sourceTree = "<group>"; };
+		B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+YYAdd.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -222,6 +225,8 @@
 				B12991782BDA96F80011E529 /* KBWebViewBase.h */,
 				B12991792BDA97260011E529 /* KBWebViewBase.m */,
 				B129917B2BDA973E0011E529 /* Code-Bridging-Header.h */,
+				B129917C2BDA97940011E529 /* UIFont+YYAdd.h */,
+				B129917D2BDA97AC0011E529 /* UIFont+YYAdd.m */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -372,6 +377,7 @@
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
 				B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */,
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
+				B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */,
 				B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */,
 				B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */,
 				B12991682BDA28830011E529 /* Theme.swift in Sources */,
