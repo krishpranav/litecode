@@ -23,6 +23,7 @@
 		B12991652BDA25310011E529 /* SourceControlError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991642BDA25310011E529 /* SourceControlError.swift */; };
 		B12991682BDA28830011E529 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991672BDA28830011E529 /* Theme.swift */; };
 		B129916A2BDA28F20011E529 /* Remote.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991692BDA28F20011E529 /* Remote.swift */; };
+		B129916C2BDA93000011E529 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129916B2BDA93000011E529 /* Notification.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B12991642BDA25310011E529 /* SourceControlError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceControlError.swift; sourceTree = "<group>"; };
 		B12991672BDA28830011E529 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		B12991692BDA28F20011E529 /* Remote.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remote.swift; sourceTree = "<group>"; };
+		B129916B2BDA93000011E529 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 			children = (
 				B12991672BDA28830011E529 /* Theme.swift */,
 				B12991692BDA28F20011E529 /* Remote.swift */,
+				B129916B2BDA93000011E529 /* Notification.swift */,
 			);
 			path = Types;
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 				B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */,
 				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
+				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
 				B12991682BDA28830011E529 /* Theme.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 				B12991612BDA22FF0011E529 /* AppError.swift in Sources */,
