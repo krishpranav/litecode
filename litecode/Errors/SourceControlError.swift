@@ -6,3 +6,10 @@
 //
 
 import Foundation
+
+enum SourceControlError: Error {
+    case gitServiceProviderUnavailable
+    case noChangesAvailable
+    case invalidURL
+    case authorIdentityMissing
+}
