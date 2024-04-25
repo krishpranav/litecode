@@ -73,6 +73,7 @@
 		B12991702BDA94550011E529 /* ActivityBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBarManager.swift; sourceTree = "<group>"; };
 		B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteCodeAppContributionPointManager.swift; sourceTree = "<group>"; };
 		B12991752BDA96470011E529 /* ActivityBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBarItemView.swift; sourceTree = "<group>"; };
+		B12991782BDA96F80011E529 /* KBWebViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWebViewBase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +124,7 @@
 		B12991292BDA1FA40011E529 /* litecode */ = {
 			isa = PBXGroup;
 			children = (
+				B12991772BDA96D60011E529 /* Utilities */,
 				B12991742BDA963E0011E529 /* Views */,
 				B129916F2BDA94400011E529 /* Manager */,
 				B12991662BDA287E0011E529 /* Types */,
@@ -209,6 +211,14 @@
 				B12991752BDA96470011E529 /* ActivityBarItemView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		B12991772BDA96D60011E529 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B12991782BDA96F80011E529 /* KBWebViewBase.h */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
