@@ -28,6 +28,7 @@
 		B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991702BDA94550011E529 /* ActivityBarManager.swift */; };
 		B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */; };
 		B12991762BDA96470011E529 /* ActivityBarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991752BDA96470011E529 /* ActivityBarItemView.swift */; };
+		B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */ = {isa = PBXBuildFile; fileRef = B12991792BDA97260011E529 /* KBWebViewBase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +75,8 @@
 		B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteCodeAppContributionPointManager.swift; sourceTree = "<group>"; };
 		B12991752BDA96470011E529 /* ActivityBarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBarItemView.swift; sourceTree = "<group>"; };
 		B12991782BDA96F80011E529 /* KBWebViewBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBWebViewBase.h; sourceTree = "<group>"; };
+		B12991792BDA97260011E529 /* KBWebViewBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBWebViewBase.m; sourceTree = "<group>"; };
+		B129917B2BDA973E0011E529 /* Code-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Code-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -217,6 +220,8 @@
 			isa = PBXGroup;
 			children = (
 				B12991782BDA96F80011E529 /* KBWebViewBase.h */,
+				B12991792BDA97260011E529 /* KBWebViewBase.m */,
+				B129917B2BDA973E0011E529 /* Code-Bridging-Header.h */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -289,6 +294,7 @@
 				TargetAttributes = {
 					B12991262BDA1FA40011E529 = {
 						CreatedOnToolsVersion = 15.0;
+						LastSwiftMigration = 1500;
 					};
 					B12991372BDA1FA50011E529 = {
 						CreatedOnToolsVersion = 15.0;
@@ -366,6 +372,7 @@
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
 				B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */,
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
+				B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */,
 				B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */,
 				B12991682BDA28830011E529 /* Theme.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
@@ -525,6 +532,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = litecode/litecode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -553,6 +561,7 @@
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -563,6 +572,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = litecode/litecode.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
