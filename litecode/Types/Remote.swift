@@ -19,3 +19,15 @@ enum RemoteAuthenticationMode {
     case inFileSSHKey(URLCredential, URL?)
     case inMemorySSHKey(URLCredential, String)
 }
+
+struct RemoteHost: Codable {
+    var url: String
+    var useKeyAuth: Bool
+    var displayName: String?
+    var privateKeyContentKeychainID: String?
+    var privateKeyPath: String?
+    
+    var rowDisplayName: String {
+        displayName ?? URL(string: self.url)?.host ?? ""
+    }
+}
