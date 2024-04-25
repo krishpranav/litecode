@@ -26,3 +26,8 @@ struct ActivityBarItem: Identifiable {
     var bubble: () -> ActivityBarBubble?
     var isVisible: (() -> Bool)
 }
+
+class ActivityBarManager: LiteCodeAppContributionPointManager {
+    @Published var items: [ActivityBarItem] = []
+    
+}
