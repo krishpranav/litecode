@@ -17,6 +17,7 @@
 		B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991572BDA208D0011E529 /* DefaultUIState.swift */; };
 		B129915A2BDA21690011E529 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991592BDA21690011E529 /* Encoding.swift */; };
 		B129915C2BDA21C10011E529 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129915B2BDA21C10011E529 /* Resources.swift */; };
+		B129915E2BDA21F30011E529 /* Secrets.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129915D2BDA21F30011E529 /* Secrets.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		B12991572BDA208D0011E529 /* DefaultUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIState.swift; sourceTree = "<group>"; };
 		B12991592BDA21690011E529 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
 		B129915B2BDA21C10011E529 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
+		B129915D2BDA21F30011E529 /* Secrets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secrets.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 				B12991572BDA208D0011E529 /* DefaultUIState.swift */,
 				B12991592BDA21690011E529 /* Encoding.swift */,
 				B129915B2BDA21C10011E529 /* Resources.swift */,
+				B129915D2BDA21F30011E529 /* Secrets.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
+				B129915E2BDA21F30011E529 /* Secrets.swift in Sources */,
 				B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */,
 				B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */,
 				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
