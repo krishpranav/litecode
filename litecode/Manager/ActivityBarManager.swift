@@ -30,4 +30,7 @@ struct ActivityBarItem: Identifiable {
 class ActivityBarManager: LiteCodeAppContributionPointManager {
     @Published var items: [ActivityBarItem] = []
     
+    func itemForItemID(itemID: String) -> ActivityBarItem? {
+        return items.first { $0.itemID == itemID }
+    }
 }
