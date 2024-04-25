@@ -16,6 +16,7 @@
 		B12991492BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991482BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift */; };
 		B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991572BDA208D0011E529 /* DefaultUIState.swift */; };
 		B129915A2BDA21690011E529 /* Encoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991592BDA21690011E529 /* Encoding.swift */; };
+		B129915C2BDA21C10011E529 /* Resources.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129915B2BDA21C10011E529 /* Resources.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		B12991482BDA1FA50011E529 /* litecodeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B12991572BDA208D0011E529 /* DefaultUIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultUIState.swift; sourceTree = "<group>"; };
 		B12991592BDA21690011E529 /* Encoding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encoding.swift; sourceTree = "<group>"; };
+		B129915B2BDA21C10011E529 /* Resources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resources.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,6 +141,7 @@
 			children = (
 				B12991572BDA208D0011E529 /* DefaultUIState.swift */,
 				B12991592BDA21690011E529 /* Encoding.swift */,
+				B129915B2BDA21C10011E529 /* Resources.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -279,6 +282,7 @@
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
 				B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */,
 				B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */,
+				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
