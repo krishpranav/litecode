@@ -26,6 +26,7 @@
 		B129916C2BDA93000011E529 /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129916B2BDA93000011E529 /* Notification.swift */; };
 		B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129916D2BDA93F60011E529 /* LiteCodeExtension.swift */; };
 		B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991702BDA94550011E529 /* ActivityBarManager.swift */; };
+		B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +70,7 @@
 		B129916B2BDA93000011E529 /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		B129916D2BDA93F60011E529 /* LiteCodeExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteCodeExtension.swift; sourceTree = "<group>"; };
 		B12991702BDA94550011E529 /* ActivityBarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityBarManager.swift; sourceTree = "<group>"; };
+		B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiteCodeAppContributionPointManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				B12991702BDA94550011E529 /* ActivityBarManager.swift */,
+				B12991722BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -341,6 +344,7 @@
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
 				B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */,
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
+				B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */,
 				B12991682BDA28830011E529 /* Theme.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 				B12991612BDA22FF0011E529 /* AppError.swift in Sources */,
