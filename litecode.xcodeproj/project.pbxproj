@@ -33,6 +33,7 @@
 		B12991802BDA97D60011E529 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129917F2BDA97D60011E529 /* Utilities.swift */; };
 		B12991822BDA98AC0011E529 /* biometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991812BDA98AC0011E529 /* biometricType.swift */; };
 		B12991842BDA98F90011E529 /* convertCArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991832BDA98F90011E529 /* convertCArguments.swift */; };
+		B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +87,7 @@
 		B129917F2BDA97D60011E529 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
 		B12991812BDA98AC0011E529 /* biometricType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometricType.swift; sourceTree = "<group>"; };
 		B12991832BDA98F90011E529 /* convertCArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertCArguments.swift; sourceTree = "<group>"; };
+		B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -228,6 +230,7 @@
 		B12991772BDA96D60011E529 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B17F34C32BDBC08100BAC1AD /* KeychainWrapper */,
 				B12991782BDA96F80011E529 /* KBWebViewBase.h */,
 				B12991792BDA97260011E529 /* KBWebViewBase.m */,
 				B129917B2BDA973E0011E529 /* Code-Bridging-Header.h */,
@@ -238,6 +241,14 @@
 				B12991832BDA98F90011E529 /* convertCArguments.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		B17F34C32BDBC08100BAC1AD /* KeychainWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */,
+			);
+			path = KeychainWrapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -395,6 +406,7 @@
 				B12991682BDA28830011E529 /* Theme.swift in Sources */,
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 				B12991612BDA22FF0011E529 /* AppError.swift in Sources */,
+				B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
