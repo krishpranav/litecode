@@ -32,6 +32,13 @@ class DirectoryMonitor {
         monitor.startMonitoring()
     }
     
+    func removeMonitorAt(url: String) {
+        monitors.removeValue(forKey: url)
+    }
+    
+    func removeAll() {
+        monitors.removeAll()
+    }
 }
 
 class FolderMonitor {
