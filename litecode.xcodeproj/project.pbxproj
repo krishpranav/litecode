@@ -34,6 +34,7 @@
 		B12991822BDA98AC0011E529 /* biometricType.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991812BDA98AC0011E529 /* biometricType.swift */; };
 		B12991842BDA98F90011E529 /* convertCArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991832BDA98F90011E529 /* convertCArguments.swift */; };
 		B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */; };
+		B17F34C72BDBC0C900BAC1AD /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		B12991812BDA98AC0011E529 /* biometricType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biometricType.swift; sourceTree = "<group>"; };
 		B12991832BDA98F90011E529 /* convertCArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertCArguments.swift; sourceTree = "<group>"; };
 		B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
+		B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -247,6 +249,7 @@
 			isa = PBXGroup;
 			children = (
 				B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */,
+				B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */,
 			);
 			path = KeychainWrapper;
 			sourceTree = "<group>";
@@ -407,6 +410,7 @@
 				B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */,
 				B12991612BDA22FF0011E529 /* AppError.swift in Sources */,
 				B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */,
+				B17F34C72BDBC0C900BAC1AD /* KeychainWrapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
