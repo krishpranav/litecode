@@ -35,6 +35,7 @@
 		B12991842BDA98F90011E529 /* convertCArguments.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12991832BDA98F90011E529 /* convertCArguments.swift */; };
 		B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */; };
 		B17F34C72BDBC0C900BAC1AD /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */; };
+		B17F34CA2BDBC0F700BAC1AD /* ArchiveDir.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +91,7 @@
 		B12991832BDA98F90011E529 /* convertCArguments.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertCArguments.swift; sourceTree = "<group>"; };
 		B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
+		B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDir.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,6 +234,7 @@
 		B12991772BDA96D60011E529 /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				B17F34C82BDBC0EA00BAC1AD /* file */,
 				B17F34C32BDBC08100BAC1AD /* KeychainWrapper */,
 				B12991782BDA96F80011E529 /* KBWebViewBase.h */,
 				B12991792BDA97260011E529 /* KBWebViewBase.m */,
@@ -252,6 +255,14 @@
 				B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */,
 			);
 			path = KeychainWrapper;
+			sourceTree = "<group>";
+		};
+		B17F34C82BDBC0EA00BAC1AD /* file */ = {
+			isa = PBXGroup;
+			children = (
+				B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */,
+			);
+			path = file;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,6 +356,7 @@
 			mainGroup = B129911E2BDA1FA40011E529;
 			packageReferences = (
 				B12991552BDA201F0011E529 /* XCRemoteSwiftPackageReference "SwiftGit2" */,
+				B17F34CB2BDBC17100BAC1AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 			);
 			productRefGroup = B12991282BDA1FA40011E529 /* Products */;
 			projectDirPath = "";
@@ -400,6 +412,7 @@
 				B12991652BDA25310011E529 /* SourceControlError.swift in Sources */,
 				B12991822BDA98AC0011E529 /* biometricType.swift in Sources */,
 				B129916E2BDA93F60011E529 /* LiteCodeExtension.swift in Sources */,
+				B17F34CA2BDBC0F700BAC1AD /* ArchiveDir.swift in Sources */,
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
 				B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */,
 				B12991802BDA97D60011E529 /* Utilities.swift in Sources */,
@@ -778,6 +791,14 @@
 			requirement = {
 				kind = upToNextMajorVersion;
 				minimumVersion = 0.6.0;
+			};
+		};
+		B17F34CB2BDBC17100BAC1AD /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
