@@ -38,5 +38,36 @@ class FolderMonitor {
         self.stopMonitoring()
     }
     
+    func startMonitoring() {
+        guard folderMonitorSource == nil && monitoredFolderFileDescriptor == -1 else {
+            return
+        }
+        
+        monitoredFolderFileDescriptor = open(url.path, O_EVTONLY)
+        
+        guard monitoredFolderFileDescriptor != -1 else { return }
+        
+        folderMonitorSource = DispatchSource.makeFileSystemObjectSource(fileDescriptor: monitoredFolderFileDescriptor, eventMask: .write, queue: folderMonitorQueue)
+        
+        folderMonitorSource?.setEventHandler { [weak self] in
+            guard let strongSelf = self else { return }
+            guard
+                let attributes = try? FileManager.default.attributesOfItem(atPath: strongSelf.url.path)
+            else { return }
+            if let lastModified = attributes[.modificationDate] as? Date {
+                strongSelf.folderDidChange?(lastModified)
+            }
+        }
+        
+        folderMonitorSource?.setCancelHandler { [weak self] in
+            guard let strongSelf = self else { return }
+            close(strongSelf.monitoredFolderFileDescriptor)
+            strongSelf.monitoredFolderFileDescriptor = -1
+            strongSelf.folderMonitorSource = nil
+        }
+        
+        folderMonitorSource?.resume()
+    }
+    
     func stopMonitoring() {}
 }
