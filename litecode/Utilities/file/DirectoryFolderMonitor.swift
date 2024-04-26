@@ -17,6 +17,21 @@ class DirectoryMonitor {
     var keys: Dictionary<String, FolderMonitor>.Keys {
         monitors.keys
     }
+    
+    func monitorURL(url: String, directoryDidUpdate: @escaping (Date) -> Void) {
+        guard let url = URL(string: url), !monitors.keys.contains(url.absoluteString),
+              self.numberOfFilesMonitored < 100
+        else {
+            return
+        }
+        
+        let monitor = FolderMonitor(url: url)
+        monitor.folderDidChange = directoryDidUpdate
+        self.monitors[url.absoluteString] = monitor
+        
+        monitor.startMonitoring()
+    }
+    
 }
 
 class FolderMonitor {
