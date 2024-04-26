@@ -36,6 +36,7 @@
 		B17F34C52BDBC08D00BAC1AD /* KeychainItemAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */; };
 		B17F34C72BDBC0C900BAC1AD /* KeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */; };
 		B17F34CA2BDBC0F700BAC1AD /* ArchiveDir.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */; };
+		B17F34CD2BDBC1A800BAC1AD /* DirectoryFolderMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B17F34CC2BDBC1A800BAC1AD /* DirectoryFolderMonitor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +93,7 @@
 		B17F34C42BDBC08D00BAC1AD /* KeychainItemAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainItemAccessibility.swift; sourceTree = "<group>"; };
 		B17F34C62BDBC0C900BAC1AD /* KeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainWrapper.swift; sourceTree = "<group>"; };
 		B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchiveDir.swift; sourceTree = "<group>"; };
+		B17F34CC2BDBC1A800BAC1AD /* DirectoryFolderMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryFolderMonitor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -261,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				B17F34C92BDBC0F700BAC1AD /* ArchiveDir.swift */,
+				B17F34CC2BDBC1A800BAC1AD /* DirectoryFolderMonitor.swift */,
 			);
 			path = file;
 			sourceTree = "<group>";
@@ -416,6 +419,7 @@
 				B129916C2BDA93000011E529 /* Notification.swift in Sources */,
 				B129917E2BDA97AC0011E529 /* UIFont+YYAdd.m in Sources */,
 				B12991802BDA97D60011E529 /* Utilities.swift in Sources */,
+				B17F34CD2BDBC1A800BAC1AD /* DirectoryFolderMonitor.swift in Sources */,
 				B12991842BDA98F90011E529 /* convertCArguments.swift in Sources */,
 				B129917A2BDA97260011E529 /* KBWebViewBase.m in Sources */,
 				B12991732BDA957F0011E529 /* LiteCodeAppContributionPointManager.swift in Sources */,
