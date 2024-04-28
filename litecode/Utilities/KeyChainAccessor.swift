@@ -52,5 +52,9 @@ class KeyChainAccessor {
             password, forKey: "passwords;\(url)"
         )
     }
-
+    
+    public func removeCredentials(for url: String) ->  Bool {
+        KeychainWrapper.standard.removeObject(forKey: "username;\(url)")
+        && KeychainWrapper.standard.removeObject(forKey: "password;\(url)")
+    }
 }
