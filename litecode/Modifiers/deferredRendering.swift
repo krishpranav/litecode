@@ -32,3 +32,9 @@ private struct DeferredViewModifier: ViewModifier {
     
     @State private var shouldRender = false
 }
+
+extension View {
+    func deferredRendering(for seconds: Double) -> some View {
+        modifier(DeferredViewModifier(threshold: seconds))
+    }
+}
