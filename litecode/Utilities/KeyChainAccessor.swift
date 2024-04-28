@@ -29,5 +29,28 @@ class KeyChainAccessor {
         KeychainWrapper.standard.removeObject(forKey: key)
     }
     
+    public func hasCredentials(for url: String) -> Bool {
+        KeychainWrapper.standard.hasValue(forKey: "username;\(url)")
+        && KeychainWrapper.standard.hasValue(forKey: "password;\(url)")
+    }
     
+    public func getCredentials(for url: String) -> URLCredential? {
+        guard
+            let username = KeychainWrapper.standard.string(forKey: "username;\(url)"),
+            let password = KeychainWrapper.standard.string(forKey: "password;\(url)")
+        else {
+            return nil
+        }
+        return URLCredential(user: username, password: password, persistence: .none)
+    }
+    
+    public func storeCredentials(username: String, password: String, for url: String) {
+        KeychainWrapper.standard.set(
+            username, forKey: "username;\(url)"
+        )
+        KeychainWrapper.standard.set(
+            password, forKey: "passwords;\(url)"
+        )
+    }
+
 }
