@@ -10,6 +10,7 @@
 		B12838392BDE619D000F0F7A /* KeyChainAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */; };
 		B128383C2BDE67FB000F0F7A /* deferredRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128383B2BDE67FB000F0F7A /* deferredRendering.swift */; };
 		B128383E2BDE6915000F0F7A /* hiddenScrollableContentBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128383D2BDE6915000F0F7A /* hiddenScrollableContentBackground.swift */; };
+		B12838402BDE6957000F0F7A /* hiddenSystemOverlays.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128383F2BDE6957000F0F7A /* hiddenSystemOverlays.swift */; };
 		B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912A2BDA1FA40011E529 /* litecodeApp.swift */; };
 		B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912C2BDA1FA40011E529 /* ContentView.swift */; };
 		B129912F2BDA1FA50011E529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B129912E2BDA1FA50011E529 /* Assets.xcassets */; };
@@ -63,6 +64,7 @@
 		B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainAccessor.swift; sourceTree = "<group>"; };
 		B128383B2BDE67FB000F0F7A /* deferredRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deferredRendering.swift; sourceTree = "<group>"; };
 		B128383D2BDE6915000F0F7A /* hiddenScrollableContentBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiddenScrollableContentBackground.swift; sourceTree = "<group>"; };
+		B128383F2BDE6957000F0F7A /* hiddenSystemOverlays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hiddenSystemOverlays.swift; sourceTree = "<group>"; };
 		B12991272BDA1FA40011E529 /* litecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = litecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B129912A2BDA1FA40011E529 /* litecodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeApp.swift; sourceTree = "<group>"; };
 		B129912C2BDA1FA40011E529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			children = (
 				B128383B2BDE67FB000F0F7A /* deferredRendering.swift */,
 				B128383D2BDE6915000F0F7A /* hiddenScrollableContentBackground.swift */,
+				B128383F2BDE6957000F0F7A /* hiddenSystemOverlays.swift */,
 			);
 			path = Modifiers;
 			sourceTree = "<group>";
@@ -420,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B12838402BDE6957000F0F7A /* hiddenSystemOverlays.swift in Sources */,
 				B12991762BDA96470011E529 /* ActivityBarItemView.swift in Sources */,
 				B128383C2BDE67FB000F0F7A /* deferredRendering.swift in Sources */,
 				B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */,
