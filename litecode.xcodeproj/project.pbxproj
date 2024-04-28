@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		B12838392BDE619D000F0F7A /* KeyChainAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */; };
+		B128383C2BDE67FB000F0F7A /* deferredRendering.swift in Sources */ = {isa = PBXBuildFile; fileRef = B128383B2BDE67FB000F0F7A /* deferredRendering.swift */; };
 		B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912A2BDA1FA40011E529 /* litecodeApp.swift */; };
 		B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912C2BDA1FA40011E529 /* ContentView.swift */; };
 		B129912F2BDA1FA50011E529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B129912E2BDA1FA50011E529 /* Assets.xcassets */; };
@@ -59,6 +60,7 @@
 
 /* Begin PBXFileReference section */
 		B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainAccessor.swift; sourceTree = "<group>"; };
+		B128383B2BDE67FB000F0F7A /* deferredRendering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deferredRendering.swift; sourceTree = "<group>"; };
 		B12991272BDA1FA40011E529 /* litecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = litecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B129912A2BDA1FA40011E529 /* litecodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeApp.swift; sourceTree = "<group>"; };
 		B129912C2BDA1FA40011E529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B128383A2BDE67EC000F0F7A /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				B128383B2BDE67FB000F0F7A /* deferredRendering.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
 		B129911E2BDA1FA40011E529 = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 		B12991292BDA1FA40011E529 /* litecode */ = {
 			isa = PBXGroup;
 			children = (
+				B128383A2BDE67EC000F0F7A /* Modifiers */,
 				B12991772BDA96D60011E529 /* Utilities */,
 				B12991742BDA963E0011E529 /* Views */,
 				B129916F2BDA94400011E529 /* Manager */,
@@ -407,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B12991762BDA96470011E529 /* ActivityBarItemView.swift in Sources */,
+				B128383C2BDE67FB000F0F7A /* deferredRendering.swift in Sources */,
 				B12991712BDA94550011E529 /* ActivityBarManager.swift in Sources */,
 				B129916A2BDA28F20011E529 /* Remote.swift in Sources */,
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
