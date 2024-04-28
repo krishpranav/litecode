@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B12838392BDE619D000F0F7A /* KeyChainAccessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */; };
 		B129912B2BDA1FA40011E529 /* litecodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912A2BDA1FA40011E529 /* litecodeApp.swift */; };
 		B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B129912C2BDA1FA40011E529 /* ContentView.swift */; };
 		B129912F2BDA1FA50011E529 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B129912E2BDA1FA50011E529 /* Assets.xcassets */; };
@@ -57,6 +58,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyChainAccessor.swift; sourceTree = "<group>"; };
 		B12991272BDA1FA40011E529 /* litecode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = litecode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B129912A2BDA1FA40011E529 /* litecodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = litecodeApp.swift; sourceTree = "<group>"; };
 		B129912C2BDA1FA40011E529 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -246,6 +248,7 @@
 				B129917F2BDA97D60011E529 /* Utilities.swift */,
 				B12991812BDA98AC0011E529 /* biometricType.swift */,
 				B12991832BDA98F90011E529 /* convertCArguments.swift */,
+				B12838382BDE619D000F0F7A /* KeyChainAccessor.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 				B129915A2BDA21690011E529 /* Encoding.swift in Sources */,
 				B129915E2BDA21F30011E529 /* Secrets.swift in Sources */,
 				B12991582BDA208D0011E529 /* DefaultUIState.swift in Sources */,
+				B12838392BDE619D000F0F7A /* KeyChainAccessor.swift in Sources */,
 				B129912D2BDA1FA40011E529 /* ContentView.swift in Sources */,
 				B12991632BDA250C0011E529 /* RemoteHostError.swift in Sources */,
 				B129915C2BDA21C10011E529 /* Resources.swift in Sources */,
